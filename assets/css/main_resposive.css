@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+    /*
+    HEADER Y WELCOME
+    */
+    .header {
+        display: none;
+    }
+
+    .welcome{
+        align-items: flex-start;
+        height: 400px;
+
+    }
+    .welcome .title{
+        font-size: 22px;
+        margin-left: 1em;
+    }
+    .welcome .info{
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 12px;
+    }
+    .welcome .info .content{
+        font-size: 18px;
+    }
+    /*
+    SKILL
+    */
+    .skills{
+        flex-direction: column;
+    }
+    /*
+    serivicio
+    */
+    .services .items{
+        display: flex;
+        flex-direction: column;
+    }
+    /*PORTAFOLIO*/
+    .portafolio .items2{
+        display: flex;
+        flex-direction: column;
+    }
+/*
+CLIENTES
+*/
+    .cliente-content{
+        flex-direction: column;
+
+    }
+/*
+CONTACTO
+*/
+.content-input{
+    flex-direction: column;
+}
+
+/*
+footer
+*/
+.footer{
+display: none;
+}
+}
+
+@media (max-width: 380px) {
+  .contacto  .formu{
+        align-items: stretch;
+    }
+    
+    .contacto .input{
+        width:auto;
+    }
+}
