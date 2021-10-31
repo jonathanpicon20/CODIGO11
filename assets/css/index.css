@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2em;
+    background-color: #00AAB5;
+}
+
+.logo h1 {
+    font-size: 64px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    font-size: 21px;
+}
+
+/*
+Menu
+*/
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.content-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    font-size: 14px;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.welcome{
+    background-image: url(../img/image.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-size: 100% 100%;
+    height: 910px;
+}       
+
+.welcome .title{
+    font-size: 64px;
+}
+
+.welcome .info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.welcome .info .content {
+    padding: 20px;
+    background-color: rgba(114, 153, 254, 0.5);
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+/*
+Skills
+*/
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7299FE;
+    padding-bottom: 2em;
+   
+}
+
+.skill h1{
+ color:  #B508A3;
+ font-size: 36px;
+}
+
+.skills{
+    display: flex;
+    gap: 2em; 
+}
+
+.skill .content-skill .content-progress{
+    width: 364px;
+    margin-bottom: 1.5em;
+
+}
+.content-progress span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.progress{
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+
+.barra{
+  
+    height: 100%;
+    background-color: #000000;
+}
+
+/*
+Servicios
+*/
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FB7171;
+    padding-bottom: 50px;
+}
+.services h1 {
+color: #00CC9B;
+font-weight: bold;
+font-size: 36px;
+}
+
+.services .items {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 4em;
+}
+
+.services .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*
+Portafolio
+*/
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD233;
+    padding-bottom: 50px;
+}
+.portafolio h1 {
+    color: #8402A5;
+    font-weight: bold;
+    font-size: 36px;
+    }
+
+
+.portafolio .items2 {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 1em;
+}
+
+/*
+Clientes
+*/
+
+.clientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3F4E62;
+    padding-bottom: 50px;
+}
+.clientes h1{
+    color: #FF00C7;
+    font-size: 36px;
+}
+.cliente-content{
+    display: flex;
+    gap: 1.5em;
+}
+/*
+Contacto
+*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16A085;
+    padding-bottom: 50px;
+}
+.contacto h1{
+    color: #CEE000;
+    font-size: 36px;
+}
+.contacto .formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.contacto .input{
+    width: 363px;
+    height: 59px;
+}
+.content-input{
+    display: flex;
+    gap: 1.5em;
+}
+.contacto .input-area{
+    width: 100%;
+    height: 112px;
+}
+.btn {
+    margin-top: 3em;
+    background: #233451;
+    color: white;
+    border: none;
+    padding: 18px 51px 17px 51px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*
+Footer
+*/
+.footer{
+    background-color: #00AAB5;
+    font-size: 14px ;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 32px;
+}
