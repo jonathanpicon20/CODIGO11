@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F7FB;
+    padding: 32px 100px 32px 100px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    padding: 0;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+input[type="text"] {
+    all: unset;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.header-titles {
+    font-size: 24px;
+}
+
+.header-titles strong {
+    line-height: 36px;
+    font-weight: bold;
+}
+
+header .container-search {
+    background: url(../image/edifice.jpg);
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+header .container-search .search {
+    background: white;
+    padding: 4px;
+    border-radius: 4px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.search-input img {
+    width: 26px;
+}
+
+.search-input input {
+    width: 100%;
+}
+
+.search button {
+    padding: 14px 48px 14px 48px;
+    background-color: #1E86FF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.location {
+    color: #B9BDCF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*CUERPO*/
+
+main {
+    padding-top: 44px;
+    display: flex;
+    gap: 7em;
+}
+
+main .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .filters .check {
+    color: #334680;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.filter-location {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.filter-location img {
+    width: 19px;
+}
+
+/*CARD*/
+
+.container-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.card {
+    width: 100%;
+    height: 114px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    display: flex;
+    padding: 14px;
+    gap: 1em;
+}
+
+.card img {
+    border-radius: 4px;
+}
+
+.card .card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #334680;
+    font-weight: bold;
+    width: 100%;
+}
+
+.card .card-detail :nth-child(1) {
+    font-size: 12px;
+}
+
+.card .card-detail :nth-child(2) {
+    font-size: 18px;
+    /* text-transform: uppercase; */
+}
+
+.btn-card {
+    font-size: 12px;
+    border: 1px solid #334680;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 6px 8px 6px 8px;
+    cursor: pointer;
+}
+
+.card-info {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.text-card {
+    display: flex;
+    gap: 5px;
+    color: #B7BCCE;
+    font-size: 12px;
+    text-transform: none !important;
+}
+
+.text-card img {
+    height: 15px;
+    width: 15px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+PAGINACION
+*/
+
+.paginator-content {
+    display: flex;
+    justify-content: end;
+}
+
+.paginator-content .tag {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #B7BCCE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #B9BDCF;
+}
+
+.paginator-content .point {
+    border: none;
+}
+
+.paginator-content .tag:hover {
+    border-color: #1E86FF;
+}
+
+.paginator {
+    display: flex;
+    gap: 1em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #B9BDCF;
+}
